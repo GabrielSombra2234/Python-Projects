@@ -1,8 +1,7 @@
-#Bibliotecas#
+#Bibliotecas
 from time import sleep
-#import math#
 
-#Decoração#
+#Decoração
 print('=-' * 20)
 sleep(0.7)
 print('             Calculadora ')
@@ -10,13 +9,7 @@ sleep(0.7)
 print('=-' * 20)
 sleep(0.7)
 
-#Variáveis e if suplementar#
-infu = int(input('Quantos numeros você quer calcular: '))
-if infu == 0:
-    print('Número invalido!, digite novamente.')
-    infu = int(input('Quantos numeros você quer calcular: '))
-
-#print e variável suplementar#
+#print
 print('Lista de ações:')
 sleep(0.7)
 print('''
@@ -25,41 +18,134 @@ print('''
 [ 3 ] Dividir
 [ 4 ] Multiplicar
 [ 5 ] Outro Cálculo
+[ 6 ] Sair
 ''')
-atitude = int(input('O que você quer fazer: '))
-sleep(0.7)
-print('=-' * 15)
-sleep(0.7)
 
-#For e Ifs#
-for cont in range(0, infu):
-    numero_calculavel = float(input('Digite um número: '))
-    numero_calculavel_2 = float(input('Digite um número: '))
-    if atitude == 1:
-        resultado = numero_calculavel + numero_calculavel_2
-        print('A soma entre {} e {}, resulta em {:.2f}'.format(numero_calculavel, numero_calculavel_2 ,resultado))
-    elif atitude == 2:
-        resultado_2 = numero_calculavel - numero_calculavel_2
-        print('A subtração entre {} e {}, resulta em {:.2f}'.format(numero_calculavel, numero_calculavel_2 ,resultado_2))
-    elif atitude == 3:
-        resultado_3 = numero_calculavel / numero_calculavel_2
-        print('A divisão entre {} e {}, resulta em {:.2f}'.format(numero_calculavel, numero_calculavel_2 ,resultado_3))
-    elif atitude == 4:
-        resultado_4 = numero_calculavel * numero_calculavel_2
-        print('A multiplicação entre {} e {}, resulta em {:.2f}'.format(numero_calculavel, numero_calculavel_2, resultado_4))
-    elif atitude == 5:
-        print('''
-        [ 1 ] Somar
-        [ 2 ] Subtrair
-        [ 3 ] Dividir
-        [ 4 ] Multiplicar
-        [ 5 ] Outro Cálculo
-        ''')
-        sleep(0.7)
-        infu = int(input('Quantos numeros você quer calcular: '))
-        sleep(0.7)
-        atitude = int(input('O que você quer fazer: '))
-        sleep(0.7)    
+#váriaveis
+numero_1 = float(input('Digite um número: '))
+sleep(0.3)
+numero_2 = float(input('Digite outro número: '))
+sleep(0.3)
+print('=-' * 20)
+decisao = int(input('O que você deseja fazer: '))
+print('=-' * 20)
+
+#while
+while True:
+
+    #soma
+    if decisao == 1:
+        valor_1 = numero_1 + numero_2
+        print('==' * 24)
+        print(f'A soma entre {numero_1:.2f} e {numero_2:.2f} é igual a {valor_1:.2f}.')
+        print('==' * 24)
+        avanco = str(input('Desejá continuar [S/N]: ')).upper()
+        if avanco == 'N':
+            break
+        else:
+            print('''
+[ 1 ] Somar
+[ 2 ] Subtrair
+[ 3 ] Dividir
+[ 4 ] Multiplicar
+[ 5 ] Outro Cálculo
+[ 6 ] Sair
+''')
+            decisao  = int(input('O que deseja fazer: '))
+
+    #subtração
+    elif decisao == 2:
+        valor_2 = numero_1 - numero_2
+        print('==' * 24)
+        print(f'A subtração entre {numero_1:.2f} e {numero_2:.2f} é igual a {valor_2:.2f}.')
+        print('==' * 24)
+        avanco = str(input('Desejá continuar [S/N]: ')).upper()
+        if avanco == 'N':
+            break
+        else:
+            print('''
+[ 1 ] Somar
+[ 2 ] Subtrair
+[ 3 ] Dividir
+[ 4 ] Multiplicar
+[ 5 ] Outro Cálculo
+[ 6 ] Sair
+''')
+            decisao = int(input('O que deseja fazer: '))
+
+    #divisão
+    elif decisao == 3:
+        valor_3 = numero_1 / numero_2
+        print('==' * 24)
+        print(f'A divisão entre {numero_1:.2f} e {numero_2:.2f} é igual a {valor_3:.2f}.')
+        print('==' * 24)
+        avanco = str(input('Desejá continuar [S/N]: ')).upper()
+        if avanco == 'N':
+            break
+        else:
+            print('''
+[ 1 ] Somar
+[ 2 ] Subtrair
+[ 3 ] Dividir
+[ 4 ] Multiplicar
+[ 5 ] Outro Cálculo
+[ 6 ] Sair
+''')
+            decisao = int(input('O que deseja fazer: '))
+
+    #multiplicação
+    elif decisao == 4:
+        valor_4 = numero_1 * numero_2
+        print('==' * 24)
+        print(f'A divisão entre {numero_1:.2f} e {numero_2:.2f} é igual a {valor_4:.2f}.')
+        print('==' * 24)
+        avanco = str(input('Desejá continuar [S/N]: ')).upper()
+        if avanco == 'N':
+            break
+        else:
+            print('''
+[ 1 ] Somar
+[ 2 ] Subtrair
+[ 3 ] Dividir
+[ 4 ] Multiplicar
+[ 5 ] Outro Cálculo
+[ 6 ] Sair
+''')
+            decisao = int(input('O que deseja fazer: '))
+
+    #Outro Cálculo
+    elif decisao == 5:
+        numero_1 = float(input('Digite um novo número: '))
+        sleep(0.3)
+        numero_2 = float(input('Digite outro novo número: '))
+        sleep(0.3)
+        if avanco == 'N':
+            break
+        else:
+            print('''
+[ 1 ] Somar
+[ 2 ] Subtrair
+[ 3 ] Dividir
+[ 4 ] Multiplicar
+[ 5 ] Outro Cálculo
+[ 6 ] Sair
+''')
+            decisao = int(input('O que deseja fazer: '))
+
+    #Sair
+    elif decisao == 6:
+        break
+
+    #Número Errado
     else:
-        print('Caracter invalido!, digite corretamente por favor.')
+        print('Digito não reconhecido!, tente novamente!')
+        print('''
+[ 1 ] Somar
+[ 2 ] Subtrair
+[ 3 ] Dividir
+[ 4 ] Multiplicar
+[ 5 ] Outro Cálculo
+[ 6 ] Sair
+''')
+        decisao = int(input('O que deseja fazer: '))        
 print('-FIM-')
