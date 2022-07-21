@@ -7,10 +7,10 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/GabrielSombra2234/Projetos-Python-3)
-[![GitHub Issues](https://img.shields.io/badge/Issues-1-blue)](https://github.com/GabrielSombra2234/Projetos-Python-3/issues)
-[![GitHub Pull Requests](https://img.shields.io/badge/Pull%20requests-0-blue)](https://github.com/GabrielSombra2234/Projetos-Python-3/pulls)
-[![License](https://img.shields.io/badge/License-MIT-blueviolet)](/LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen/?style=flat-square&color=brightgreen)](https://github.com/GabrielSombra2234/Projetos-Python-3)
+[![GitHub Issues](https://img.shields.io/badge/Issues-1-blue/?style=flat-square&color=blue)](https://github.com/GabrielSombra2234/Projetos-Python-3/issues)
+[![GitHub Pull Requests](https://img.shields.io/badge/Pull%20requests-0-blue/?style=flat-square&color=blue)](https://github.com/GabrielSombra2234/Projetos-Python-3/pulls)
+[![License](https://img.shields.io/badge/License-MIT-blueviolet/?style=flat-square&color=blueviolet)](/LICENSE)
 
 </div>
 
@@ -27,8 +27,8 @@
 - [Gravador de Notas]() - Concluído! ✅
 - [Calculadora]() - Concluído! ✅
 - [Country ID]() - Concluído! ✅
-- [Texto-SOPT]() - Concluído! ✅
-- [Mais]() - Mais projetos! 💪
+- [Texto-SOPT](/Projects/Texto-SOPT) - Concluído! ✅
+- [Mais](/Projects) - Mais projetos! 💪
 
 ## 🧐 Sobre / About <a name = "about"></a>
 
