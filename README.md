@@ -3,7 +3,7 @@
  <img width=128px height=128px src="Image/python.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Python-3 Tests</h3>
+<h3 align="center">Projetos Python-3</h3>
 
 <div align="center">
 
@@ -16,6 +16,30 @@
 
 ---
 
-<p align="center"> Esse é um repositorio criado para armazenar os meus projetos próprios que faço com Python-3 puro.
+<p align="center"> 
     <br> 
 </p>
+
+## 📝 Índice / Table of Contents
+
+- [Gerador de QRcode]() - Em produção! 🕐
+- [Conversor de Temperatura]() - Em produção! 🕐
+- [Gravador de Notas]() - Concluído! ✅
+- [Calculadora]() - Concluído! ✅
+- [Country ID]() - Concluído! ✅
+- [Texto-SOPT]() - Concluído! ✅
+- [Mais]() - Mais projetos! 💪
+
+## 🧐 Sobre / About <a name = "about"></a>
+
+- Esse é um repositorio criado para armazenar os meus projetos próprios que faço com Python-3 puro.
+
+## ⛏️ Tecnologias usadas / Built Using <a name = "built_using"></a>
+
+- [Python](https://www.python.org/) - Console Aplication
+
+## ✍️ Autore / Author <a name = "author"></a>
+
+- [@GabrielSombra2234](https://github.com/GabrielSombra2234) - Idea & Initial work
+
+---
