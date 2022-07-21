@@ -7,9 +7,9 @@
 
 <div align="center">
 
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
-[![GitHub Issues](https://img.shields.io/badge/Issues-1-blue)](https://github.com/GabrielSombra2234/Meus-Projetos/issues)
-[![GitHub Pull Requests](https://img.shields.io/badge/Pull%20requests-0-blue)](https://github.com/GabrielSombra2234/Meus-Projetos/pulls)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)](https://github.com/GabrielSombra2234/Projetos-Python-3)
+[![GitHub Issues](https://img.shields.io/badge/Issues-1-blue)](https://github.com/GabrielSombra2234/Projetos-Python-3/issues)
+[![GitHub Pull Requests](https://img.shields.io/badge/Pull%20requests-0-blue)](https://github.com/GabrielSombra2234/Projetos-Python-3/pulls)
 [![License](https://img.shields.io/badge/License-MIT-blueviolet)](/LICENSE)
 
 </div>
