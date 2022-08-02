@@ -32,7 +32,7 @@
 
 ## 🧐 Sobre / About <a name = "about"></a>
 
-- Esse é um repositorio criado para armazenar os meus projetos próprios que faço com Python-3 puro.
+- Esse é um repositório criado para armazenar os meus projetos próprios que faço com Python-3.
 
 ## ⛏️ Tecnologias usadas / Built Using <a name = "built_using"></a>
 
