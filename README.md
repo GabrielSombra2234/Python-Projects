@@ -46,7 +46,7 @@
 
 ## 5. 📚 Bibliotecas Usadas / Used Libraries
 
-- Sleep form [Time](https://docs.python.org/pt-br/3.10/library/time.html)
+- `Sleep` form [Time](https://docs.python.org/pt-br/3.10/library/time.html)
 
 ## 6. ✍️ Autor / Author <a name = "author"></a>
 
