@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
-    <img width=128px height=128px src="Image/python.png" alt="Project logo">
-  </a>
+  <img width=128px height=128px src="Image/python.png" alt="Project logo">
 </p>
 
 <h2 align="center">Python Projects</h2>
