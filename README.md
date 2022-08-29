@@ -1,9 +1,10 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=128px height=128px src="Image/python.png" alt="Project logo"></a>
+    <img width=128px height=128px src="Image/python.png" alt="Project logo">
+  </a>
 </p>
 
-<h3 align="center">Python Projects</h3>
+<h2 align="center">Python Projects</h2>
 
 <div align="center">
 
@@ -16,16 +17,11 @@
 
 ---
 
-<p align="center">
-  
-  <br>
-</p>
-
 ## 1. 📝 Aplicações de Console / Console Applications 
 
 - [Gerador de Senha Forte]() - Em produção! 🕐
-- [Gerador de BarCode]() - Em produção! 🕐
-- [Gerador de QRCode]() - Em produção! 🕐
+- [App de Cotações Atualizadas]() - Em produção! 🕐
+- [Gerador de QRcode e BarCode]() - Em produção! 🕐
 - [Conversor de Temperatura](/Projects/Assets/Conversor-de-temperatura) - Concluído! ✅
 - [Gravador de Notas](/Projects/Assets/Gravador-de-Notas) - Concluído! ✅
 - [Calculadora](/Projects/Assets/Calculadora) - Concluído! ✅
