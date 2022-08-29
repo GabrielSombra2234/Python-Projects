@@ -43,6 +43,8 @@
 ## 5. 📚 Bibliotecas Usadas / Used Libraries
 
 - `Sleep` form [Time](https://docs.python.org/pt-br/3.10/library/time.html)
+- `Requests` from [requests](https://pypi.org/project/requests/)
+- `Json` from [Json](https://docs.python.org/3/library/json.html)
 
 ## 6. ✍️ Autor / Author <a name = "author"></a>
 
