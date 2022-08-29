@@ -32,11 +32,11 @@
 - [Lister App](/Projects/Apps/ListerApp) - Em produção! 🕐
 - [QRCode Generator](/Projects/Apps/QRCodeGenerator) - Em produção! 🕐
 
-## 3. 🧐 Sobre / About <a name = "about"></a>
+## 3. 🧐 Sobre / About
 
 - Esse é um repositório criado para armazenar os meus projetos próprios que faço com Python.
 
-## 4. ⛏️ Tecnologias usadas / Built Using <a name = "built_using"></a>
+## 4. ⛏️ Tecnologias usadas / Built Using
 
 - [Python](https://www.python.org/) - Console Aplication
 - [AwesomeAPI](https://docs.awesomeapi.com.br/) - API de cotações
@@ -47,7 +47,7 @@
 - `Requests` from [requests](https://pypi.org/project/requests/)
 - `Json` from [Json](https://docs.python.org/3/library/json.html)
 
-## 6. ✍️ Autor / Author <a name = "author"></a>
+## 6. ✍️ Autor / Author
 
 - [@GabrielSombra2234](https://github.com/GabrielSombra2234) - Idea & Initial work
 
