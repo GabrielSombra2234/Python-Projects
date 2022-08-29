@@ -39,6 +39,7 @@
 ## 4. ⛏️ Tecnologias usadas / Built Using <a name = "built_using"></a>
 
 - [Python](https://www.python.org/) - Console Aplication
+- [AwesomeAPI](https://docs.awesomeapi.com.br/) - API de cotações
 
 ## 5. 📚 Bibliotecas Usadas / Used Libraries
 
