@@ -6,16 +6,13 @@ import json
 # Inicialização
 print(' ')
 print('=' * 36)
-sleep(0.7)
 print('|{:^34}|'.format('Moedas Hoje!'))
-sleep(0.7)
 print('=' * 36)
-sleep(0.7)
 print('|{:^34}|'.format('Principais Moedas Atualizadas!'))
-sleep(0.7)
 print('=' * 36)
 print(' ')
 
+sleep(0.7)
 # Váriaveis
 cotacoes = requests.get("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL")
 cotacoes = cotacoes.json()
@@ -27,15 +24,15 @@ cont = 0
 # While e Lógica
 while True:
     # Consulta
-    moeda_consulta = str(input('Olá! qual moeda deseja consultar? [USD/EUR/BTC]: ')).upper()
+    moeda_consulta = str(input('Olá! qual moeda deseja consultar? [USD/EUR/BTC]: ')).upper().strip()
     cont += 1
     print('=' * 54)
-    
+
     # Bloco Dólar
     if moeda_consulta == 'USD':
         print(f'O preço do Dólar hoje é de \033[32mR${cotacoes_dolar}!\033[m')
         print('=' * 54)
-        condicao = str(input('Deseja fazer mais consultas? [S/N]: ')).upper()
+        condicao = str(input('Deseja fazer mais consultas? [S/N]: ')).upper().strip()
         print('=' * 54)
         if condicao == 'S':
             pass
@@ -47,27 +44,27 @@ while True:
     elif moeda_consulta == 'EUR':
         print(f'O preço do Euro hoje é de \033[32mR${cotacoes_euro}!\033[m')
         print('=' * 54)
-        condicao = str(input('Deseja fazer mais consultas? [S/N]: ')).upper()
+        condicao = str(input('Deseja fazer mais consultas? [S/N]: ')).upper().strip()
         print('=' * 54)
         if condicao == 'S':
             pass
         else:
             certo = condicao
             break
-    
+
     # Bloco Bitcoin
     elif moeda_consulta == 'BTC':
         print(f'O preço do Bitcoin hoje é de \033[32mR${cotacoes_bitcoin}!\033[m')
         print('=' * 54)
-        condicao = str(input('Deseja fazer mais consultas? [S/N]: ')).upper()
+        condicao = str(input('Deseja fazer mais consultas? [S/N]: ')).upper().strip()
         print('=' * 54)
         if condicao == 'S':
             pass
         else:
             certo = condicao
-            break 
-   
-    # Bloco de Erro
+            break
+
+            # Bloco de Erro
     else:
         print(f"\033[31mERRO!\033[m A sigla digitada '{moeda_consulta}' não existe! ")
         print('Tente novamente! digite entre \033[33m[USD/EUR/BTC]!\033[m')
